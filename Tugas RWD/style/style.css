@@ -1,0 +1,65 @@
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: antiquewhite;
+}
+
+    /* Bagian oval atas */
+.header {
+      background-color: white;
+      width: 50%;
+      height: 60px;
+      margin: 25px auto;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 20px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+    }
+
+    /* Bagian konten utama */
+.content {
+      width: 50%;
+      height: 585px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+      margin: 0 auto;
+      background-color: white;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;      
+    }
+
+    /* Navigasi bawah */
+.footer {
+      width: 50%;
+      border-top: 1px solid black;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 60px;
+      font-weight: 500;
+      background-color: white;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    }
+
+.content img {
+  margin: 15px auto;
+  margin-left: 15px;
+  width: 150px;
+  border-radius: 12px;
+}
+
+    .footer a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak Saya</title>
+<link rel="stylesheet" href="style/style.css">
+<style>
+  form {
+      width: 80%;
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  input, select, textarea {
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+  }
+  button {
+      padding: 10px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+  }
+  button:hover {
+      background-color: darkgray;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">CONTACT ME</div>
+
+  <div class="content">
+      <form>
+          <h2>Form Request Project</h2>
+
+          <label>Nama Lengkap:</label>
+          <input type="text" placeholder="Masukkan nama" required>
+
+          <label>Email:</label>
+          <input type="email" placeholder="Masukkan email" required>
+
+          <label>Jenis Layanan:</label>
+          <select required>
+              <option value="">-- Pilih Layanan --</option>
+              <option value="web">Pembuatan Website</option>
+              <option value="konsultasi">Konsultasi Teknologi</option>
+              <option value="review">Review Portofolio</option>
+          </select>
+
+          <label>Deskripsi / Pesan:</label>
+          <textarea rows="4" placeholder="Jelaskan kebutuhan proyek Anda..."></textarea>
+
+          <label>
+              <input type="checkbox" required> Saya setuju dengan syarat dan ketentuan
+          </label>
+
+          <button type="submit">Kirim</button>
+      </form>
+  </div>
+
+  <div class="footer">
+      <a href="index.html">Beranda</a>
+      <a href="portfolio.html">Portofolio</a>
+      <a href="contact.html">Kontak</a>
+      <a href="https://itpln.ac.id" target="_blank">ITPLN</a>
+  </div>
+
+</body>
+</html>
